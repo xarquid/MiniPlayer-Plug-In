@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA7C6B718F8476C009809DD /* ScriptingBridge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEA7C6B618F8476C009809DD /* ScriptingBridge.framework */; };
+		DEA7C6BC18F850C0009809DD /* MPITunesSong.m in Sources */ = {isa = PBXBuildFile; fileRef = DEA7C6BB18F850C0009809DD /* MPITunesSong.m */; };
+		DEC5232A18F5F73500B61D3D /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC5232918F5F73500B61D3D /* CoreFoundation.framework */; };
+		DEC5233018F5F73500B61D3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEC5232E18F5F73500B61D3D /* InfoPlist.strings */; };
+		DEC5233A18F5F74D00B61D3D /* MPITunesPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = DEC5233918F5F74D00B61D3D /* MPITunesPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DEA7C6B618F8476C009809DD /* ScriptingBridge.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScriptingBridge.framework; path = System/Library/Frameworks/ScriptingBridge.framework; sourceTree = SDKROOT; };
+		DEA7C6B918F84824009809DD /* iTunes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iTunes.h; sourceTree = "<group>"; };
+		DEA7C6BA18F850C0009809DD /* MPITunesSong.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPITunesSong.h; sourceTree = "<group>"; };
+		DEA7C6BB18F850C0009809DD /* MPITunesSong.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPITunesSong.m; sourceTree = "<group>"; };
+		DEC5232618F5F73500B61D3D /* MPITunesPlugin.miniplayerplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPITunesPlugin.miniplayerplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEC5232918F5F73500B61D3D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		DEC5232D18F5F73500B61D3D /* MPITunesPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPITunesPlugin-Info.plist"; sourceTree = "<group>"; };
+		DEC5232F18F5F73500B61D3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		DEC5233118F5F73500B61D3D /* MPITunesPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPITunesPlugin-Prefix.pch"; sourceTree = "<group>"; };
+		DEC5233718F5F74D00B61D3D /* MPMiniPlayerPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPMiniPlayerPlugin.h; sourceTree = "<group>"; };
+		DEC5233818F5F74D00B61D3D /* MPITunesPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPITunesPlugin.h; sourceTree = "<group>"; };
+		DEC5233918F5F74D00B61D3D /* MPITunesPlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPITunesPlugin.m; sourceTree = "<group>"; };
+		DEC5234018F5FCCC00B61D3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEC5232318F5F73500B61D3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA7C6B718F8476C009809DD /* ScriptingBridge.framework in Frameworks */,
+				DEC5232A18F5F73500B61D3D /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEC5231D18F5F73500B61D3D = {
+			isa = PBXGroup;
+			children = (
+				DEC5232B18F5F73500B61D3D /* MPITunesPlugin */,
+				DEC5232818F5F73500B61D3D /* Frameworks */,
+				DEC5232718F5F73500B61D3D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEC5232718F5F73500B61D3D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5232618F5F73500B61D3D /* MPITunesPlugin.miniplayerplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEC5232818F5F73500B61D3D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DEA7C6B618F8476C009809DD /* ScriptingBridge.framework */,
+				DEC5232918F5F73500B61D3D /* CoreFoundation.framework */,
+				DEC5234018F5FCCC00B61D3D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DEC5232B18F5F73500B61D3D /* MPITunesPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5233718F5F74D00B61D3D /* MPMiniPlayerPlugin.h */,
+				DEA7C6B918F84824009809DD /* iTunes.h */,
+				DEC5233818F5F74D00B61D3D /* MPITunesPlugin.h */,
+				DEC5233918F5F74D00B61D3D /* MPITunesPlugin.m */,
+				DEA7C6BA18F850C0009809DD /* MPITunesSong.h */,
+				DEA7C6BB18F850C0009809DD /* MPITunesSong.m */,
+				DEC5232C18F5F73500B61D3D /* Supporting Files */,
+			);
+			path = MPITunesPlugin;
+			sourceTree = "<group>";
+		};
+		DEC5232C18F5F73500B61D3D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEC5232D18F5F73500B61D3D /* MPITunesPlugin-Info.plist */,
+				DEC5232E18F5F73500B61D3D /* InfoPlist.strings */,
+				DEC5233118F5F73500B61D3D /* MPITunesPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEC5232518F5F73500B61D3D /* MPITunesPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEC5233418F5F73500B61D3D /* Build configuration list for PBXNativeTarget "MPITunesPlugin" */;
+			buildPhases = (
+				DEC5232218F5F73500B61D3D /* Sources */,
+				DEC5232318F5F73500B61D3D /* Frameworks */,
+				DEC5232418F5F73500B61D3D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPITunesPlugin;
+			productName = MPITunesPlugin;
+			productReference = DEC5232618F5F73500B61D3D /* MPITunesPlugin.miniplayerplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEC5231E18F5F73500B61D3D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mpow;
+			};
+			buildConfigurationList = DEC5232118F5F73500B61D3D /* Build configuration list for PBXProject "MPITunesPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = DEC5231D18F5F73500B61D3D;
+			productRefGroup = DEC5232718F5F73500B61D3D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEC5232518F5F73500B61D3D /* MPITunesPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEC5232418F5F73500B61D3D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC5233018F5F73500B61D3D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEC5232218F5F73500B61D3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEC5233A18F5F74D00B61D3D /* MPITunesPlugin.m in Sources */,
+				DEA7C6BC18F850C0009809DD /* MPITunesSong.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DEC5232E18F5F73500B61D3D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEC5232F18F5F73500B61D3D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEC5233218F5F73500B61D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		DEC5233318F5F73500B61D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		DEC5233518F5F73500B61D3D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPITunesPlugin/MPITunesPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MPITunesPlugin/MPITunesPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = miniplayerplugin;
+			};
+			name = Debug;
+		};
+		DEC5233618F5F73500B61D3D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPITunesPlugin/MPITunesPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MPITunesPlugin/MPITunesPlugin-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = miniplayerplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEC5232118F5F73500B61D3D /* Build configuration list for PBXProject "MPITunesPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC5233218F5F73500B61D3D /* Debug */,
+				DEC5233318F5F73500B61D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEC5233418F5F73500B61D3D /* Build configuration list for PBXNativeTarget "MPITunesPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEC5233518F5F73500B61D3D /* Debug */,
+				DEC5233618F5F73500B61D3D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEC5231E18F5F73500B61D3D /* Project object */;
+}
